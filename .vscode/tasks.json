@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build C++",
+      "type": "shell",
+      "command": "./utils/build.sh",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Run regression checks",
+      "type": "shell",
+      "command": "./utils/check.sh",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}

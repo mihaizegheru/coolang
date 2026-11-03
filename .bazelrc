@@ -1,0 +1,8 @@
+common --enable_bzlmod
+build --compilation_mode=dbg
+build --strip=never
+build --cxxopt=-std=c++20
+build --host_cxxopt=-std=c++20
+build --jobs=4
+build --java_runtime_version=local_jdk
+build --tool_java_runtime_version=local_jdk

@@ -1,0 +1,9 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+    "name": "Debug coolc (WSL)", "type": "cppdbg", "request": "launch",
+    "program": "${workspaceFolder}/build/bin/coolc",
+    "args": ["${workspaceFolder}/checker/tests/01-class.cl"],
+    "cwd": "${workspaceFolder}", "MIMode": "gdb", "preLaunchTask": "Build C++"
+  }]
+}

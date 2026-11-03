@@ -1,0 +1,23 @@
+{
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+  "files.associations": {
+    "*.g4": "antlr",
+    "BUILD": "starlark",
+    "*.bzl": "starlark",
+    "*.bazel": "starlark"
+  },
+  "search.exclude": {
+    "**/third_party/**": true,
+    "**/build/**": true,
+    "**/bazel-*/**": true
+  },
+  "C_Cpp.clang_format_style": "file",
+  "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.formatOnSave": true
+  },
+  "files.watcherExclude": {
+    "**/bazel-*/**": true
+  }
+}

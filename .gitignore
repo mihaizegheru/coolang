@@ -1,0 +1,10 @@
+/build/
+/bazel-*
+/.cache/
+__pycache__/
+*.pyc
+*.out
+compile_commands.json
+.idea/
+.vscode/*.log
+*Zone.Identifier

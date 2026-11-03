@@ -1,0 +1,12 @@
+BasedOnStyle: Google
+Standard: c++20
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: '^<.*\.h>'
+    Priority: 1
+  - Regex: '^<.*>'
+    Priority: 2
+  - Regex: '^"(ANTLRInputStream|BaseErrorListener|CommonTokenStream|CoolLexer|CoolParser|CoolParserBaseVisitor|ParserRuleContext|Token)\.h"$'
+    Priority: 3
+  - Regex: '^".*"$'
+    Priority: 4
